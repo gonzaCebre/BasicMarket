@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Chill - Tienda online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <header>
+            <a href="index.html"><img src="img/LOGO-INSTA.png" /></a> 
+            <div class="search_bar">
+                <a href="#"></a>
+                <input type="text" placeholder="Buscar..." id="bar">
+            </div>   
+            <nav class="session">   
+                <ul class="menu_session">
+                    <li><a href="#">Iniciar sesión</a></li>
+                    <li><a href="sesion.html">Registrate</a></li>
+                    <li><a href="#">Mayoristas</a></li>
+                </ul>
+            </nav>
+        </header>
+ 
+		<div class="container">
+			<ul class="nav">
+				<li><a href="">INICIO</a></li>
+				<li><a href="">PRODUCTOS</a>
+					<ul>
+						<li><a href="">Remeras</a></li>
+						<li><a href="">Buzos</a></li>
+						<li><a href="">Llaveros</a></li>
+						<li><a href="">Calcos</a></li>
+					</ul>
+				</li>
+				<li><a href="">COMO COMPRAR</a></li>
+                <li><a href="">DUDAS</a></li>
+                <li><a href="">TALLES</a></li>
+                <li><a href="">CONTACTO</a></li>
+                <li><a href="">CARRITO</a></li>
+			</ul>
+        </div>
+        
+        <section class="productDetail">
+            <div>
+                <img src="img/Productos/Remeras/10g.jpg" alt="Remera 10g">
+            </div>
+            <div class="productSelection">
+                <h1>10G</h1>
+                <h2>$900</h2>
+                <p>10% de descuento con pago en deposito o transferencia bancaria</p>
+                <div>
+                    <form action="" class="variants">
+                        <div>
+                            <label>Talle</label>
+                            <select name="talle">
+                                <option value="xs">XS</option>
+                                <option value="s">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                                <option value="xxl">XXL</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Corte</label>
+                            <select name="corte">
+                                <option value="recto">RECTO</option>
+                                <option value="entallado">ENTALLADO</option>
+                            </select>
+                        </div>
+                    </form>
+                    <form action="" class="variants">
+                        <div>
+                            <label>Color</label>
+                            <select name="color">
+                                <option value="blanco">Blanco</option>
+                                <option value="negro">Negro</option>
+                                <option value="azul">Azul marino</option>
+                                <option value="verdeClaro">Verde claro</option>
+                                <option value="verdeOscuro">Verde oscuro</option>
+                                <option value="naranja">Naranja</option>
+                                <option value="amarillo">Amarillo</option>
+                                <option value="gris">Gris melange</option>
+                                <option value="rosa">Rosa</option>
+                                <option value="rojo">Rojo</option>
+                                <option value="bordo">Bordó</option>
+                                <option value="violeta">Violeta</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Cantidad</label>
+                            <select name="cantidad">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>                    
+                    </form>
+                    <input type="submit" value="Agregar al carrito" class="addToCart">
+                    <div class="envioBox">
+                        <form action="" class="envio">
+                            <label>Calcula el costo de envío</label>
+                            <input type="text" name="envio" placeholder="CP">
+                            <input type="submit" value="Calcular">    
+                    </div>
+                    </form>
+                </div>
+            </div>
+           
+        </section> 
+        <div class="productCaract">
+            <p class="caract">
+                · Reme 100% algodón<br> - Cardado 24.1 <br>
+                · Excelentes terminaciones. Cuello a la base. Mangas cortas<br>
+                · Estampado por vinilo o serigrafia<br>
+                · Talles disponibles: Del XS al XXL. Corte recto y entallado.<br>
+                
+                No contamos con stock fijo permanente, por lo cual el envío no es inmediato.<br>
+            </p>
+            <div class="min">
+                <h3>Minorista</h3>
+                <p>
+                Seleccionar "envío a acordar" para recibir el pedido por Oca o Via Cargo a todo el pais. O glovo dentro de Córdoba capital. <br>
+                Seleccionar "método de pago a acordar" para pagar a través de rapipago con el 10% de descuento.
+                </p>
+            </div>
+            <div class="may">
+                <h3>Mayorista</h3>
+                <p>
+                Seleccionar "envío a acordar" para recibir el pedido por Oca o Via Cargo a todo el pais. O glovo dentro de Córdoba capital. <br>
+                Seleccionar "método de pago a acordar" para pagar a través de rapipago con el 10% de descuento.
+                </p>
+            </div>
+        </div>   
+
+        <footer class="footer">
+            <div class="payment">
+                <h2>Métodos de pago</h2>
+                <p>Mercadopago</p>
+                <p>Visa</p>
+                <p>Mastercard</p>
+                <p>Link</p>
+            </div>
+            
+            <div class="shipping">
+                <h2>Métodos de envío</h2>
+                <p>Correo Argentino</p>
+                <p>OCA</p>
+                <p>E-Pick</p>
+                <p>Cadeteria</p>
+            </div>
+            
+            <div class="socialMedia">
+                <h2>Nuestras redes</h2>
+                <a href="http://facebook.com/staychill.cba">Facebook</a>
+                <a href="http://instagram.com/staychill.cba">Instagram</a>
+            </div>
+            
+            <div class="Contact">
+                <h2>Contacto</h2>
+                <p>staychill@gmail.com</p>
+                <p>3516864221</p>
+                <p>Córdoba capital</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
